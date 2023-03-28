@@ -2,32 +2,32 @@
 
 OpenAI Cookbook 分享使用 [OpenAI API] 完成常见任务的示例代码。
 
-要运行这些示例，您需要 OpenAI 帐户和关联的 API 密钥（[创建免费帐户] [api signup]）。
+要运行这些示例，您需要 OpenAI 帐户和关联的 API 密钥。
 
 大多数代码示例都是用 Python 编写的，但这些概念也可以应用在任何语言中。
 
 ## 最近添加的 🆕 ✨
 
-- [如何为 ChatGPT 模型格式化输入]（examples/How_to_format_inputs_to_ChatGPT_models.ipynb）[2023年3月1日]
-- [使用向量数据库和Redis进行嵌入搜索]（https://github.com/openai/openai-cookbook/tree/main/examples/vector_databases/redis）[2023年2月15日]
-- [使用嵌入进行网站问答]（https://github.com/openai/openai-cookbook/tree/main/apps/web-crawl-q-and-a）[2023年2月11日]
-- [使用嵌入进行文件问答]（https://github.com/openai/openai-cookbook/tree/main/apps/file-q-and-a）[2023年2月11日]
-- [在 Weights＆Biases 中可视化嵌入]（https://github.com/openai/openai-cookbook/blob/main/examples/Visualizing_embeddings_in_W%26B.ipynb）[2023年2月9日]
-- [使用 Pinecone 进行检索增强生成式问答]（https://github.com/openai/openai-cookbook/blob/main/examples/vector_databases/pinecone/Gen_QA.ipynb）[2023年2月8日]
+- [如何为 ChatGPT 模型格式化输入](examples/How_to_format_inputs_to_ChatGPT_models.ipynb)[2023年3月1日]
+- [使用向量数据库和Redis进行嵌入搜索](https://github.com/openai/openai-cookbook/tree/main/examples/vector_databases/redis)[2023年2月15日]
+- [使用嵌入进行网站问答](https://github.com/openai/openai-cookbook/tree/main/apps/web-crawl-q-and-a)[2023年2月11日]
+- [使用嵌入进行文件问答](https://github.com/openai/openai-cookbook/tree/main/apps/file-q-and-a)[2023年2月11日]
+- [在 Weights＆Biases 中可视化嵌入](https://github.com/openai/openai-cookbook/blob/main/examples/Visualizing_embeddings_in_W%26B.ipynb)[2023年2月9日]
+- [使用 Pinecone 进行检索增强生成式问答](https://github.com/openai/openai-cookbook/blob/main/examples/vector_databases/pinecone/Gen_QA.ipynb)[2023年2月8日]
 
 ## 指南和示例
 
 - API用法
-  - [如何处理速率限制]（examples/How_to_handle_rate_limits.ipynb）
+  - [如何处理速率限制](examples/How_to_handle_rate_limits.ipynb)
     - [避免命中速率限制的示例并行处理脚本](examples/api_request_parallel_processor.py)
   - [如何使用 tiktoken 计算令牌数量](examples/How_to_count_tokens_with_tiktoken.ipynb)
   - [如何流式完成](examples/How_to_stream_completions.ipynb)
 - ChatGPT
-  - [如何为 ChatGPT 模型格式化输入]（examples/How_to_format_inputs_to_ChatGPT_models.ipynb）
+  - [如何为 ChatGPT 模型格式化输入](examples/How_to_format_inputs_to_ChatGPT_models.ipynb)
 - GPT-3
-  - [指南：如何使用大型语言模型]（how_to_work_with_large_language_models.md）
-  - [指南：提高可靠性的技术]（techniques_to_improve_reliability.md）
-  - [如何使用多步提示编写单元测试]（examples/Unit_test_writing_using_a_multi-step_prompt.ipynb）- [文本写作示例](text_writing_examples.md)
+  - [指南：如何使用大型语言模型](how_to_work_with_large_language_models.md)
+  - [指南：提高可靠性的技术](techniques_to_improve_reliability.md)
+  - [如何使用多步提示编写单元测试](examples/Unit_test_writing_using_a_multi-step_prompt.ipynb)- [文本写作示例](text_writing_examples.md)
   - [文本解释示例](text_explanation_examples.md)
   - [文本编辑示例](text_editing_examples.md)
   - [代码编写示例](code_writing_examples.md)
@@ -47,7 +47,7 @@ OpenAI Cookbook 分享使用 [OpenAI API] 完成常见任务的示例代码。
   - [经过微调的分类](examples/Fine-tuned_classification.ipynb)
 - DALL-E
   - [如何使用DALL-E生成和编辑图像](examples/dalle/Image_generations_edits_and_variations_with_DALL-E.ipynb)
-- Azure OpenAI（来自Microsoft Azure的替代API）
+- Azure OpenAI(来自Microsoft Azure的替代API)
   - [如何从Azure OpenAI中获取完成](examples/azure/completions.ipynb)
   - [如何从Azure OpenAI中获得嵌入](examples/azure/embeddings.ipynb)
   - [如何使用Azure OpenAI微调GPT-3](examples/azure/finetuning.ipynb)
